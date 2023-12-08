@@ -1,0 +1,444 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-07T10:34:23.496Z",
+        "line": 3,
+        "name": "Check the login functionlity",
+        "description": "",
+        "id": "login-and-book-a-appointment-functionality.;check-the-login-functionlity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6127380600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "stepDefinition.Openmrs.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12063529000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the url",
+            "match": {
+              "location": "stepDefinition.Openmrs.enter_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240820900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2197172000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter password  \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12135704600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on reistration desk button",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_reistration_desk_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168305200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login button",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2441600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigated to home page",
+            "match": {
+              "location": "stepDefinition.Openmrs.navigated_to_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-07T10:34:56.582Z",
+        "line": 12,
+        "name": "Check the Register a patiant functionality",
+        "description": "",
+        "id": "login-and-book-a-appointment-functionality.;check-the-register-a-patiant-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12054588000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on register a patiant",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_register_a_patiant()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10044437700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter given name \"jin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_given_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10032353800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter family name \"kim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kim\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_family_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10082845300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on next1.",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_next1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@name\u003d\"gender\"]\"}\n  (Session info: chrome\u003d119.0.6045.200)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [98847a01fc7acf89efeee7887fa0ca4c, findElement {using\u003dxpath, value\u003d//select[@name\u003d\"gender\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\user\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57551/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 98847a01fc7acf89efeee7887fa0ca4c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat stepDefinition.Openmrs.select_the_female(Openmrs.java:79)\r\n\tat ✽.Select the female.(file:///C:/Users/user/eclipse-workspace_Cucumber/openmrs/framework/features/Openmrs.feature:17)\r\n",
+              "duration": 10231912200,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Select the female.",
+            "match": {
+              "location": "stepDefinition.Openmrs.select_the_female()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1994400,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on next button2.",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "enter day \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_day(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select the drop down",
+            "match": {
+              "location": "stepDefinition.Openmrs.select_the_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "enter year 2023",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2023",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_year(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click on next3.",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_next3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "enter postal code \"2868\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2868\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_postal_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click next6",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_next6()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter patiant phone number \"4435235222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4435235222\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_patiant_phone_number(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993600,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "click on next4",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "select the patiant related drop down.",
+            "match": {
+              "location": "stepDefinition.Openmrs.select_the_patiant_related_drop_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click on next5",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_next11()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "click on confirm",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-07T10:35:49.093Z",
+        "line": 31,
+        "name": "Check the patiant record functionality.",
+        "description": "",
+        "id": "login-and-book-a-appointment-functionality.;check-the-patiant-record-functionality.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2121483800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on home",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10070243600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on patiant record",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_patiant_record()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on serach button",
+            "match": {
+              "location": "stepDefinition.Openmrs.click_on_serach_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10026122100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter patiant name \"jin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jin\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Openmrs.enter_patiant_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10022624600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "View tha patiant",
+            "match": {
+              "location": "stepDefinition.Openmrs.view_tha_patiant()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and book a appointment functionality.",
+    "description": "",
+    "id": "login-and-book-a-appointment-functionality.",
+    "keyword": "Feature",
+    "uri": "file:framework/features/Openmrs.feature",
+    "tags": []
+  }
+]
